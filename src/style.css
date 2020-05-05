@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#input {
+  margin: 10px;
+  font-size: 20px;
+  padding: 5px;
+  width: 970px;
+  height: 50px;
+  border: 2px solid black;
+}
+#entryContent {
+  width: 970px;
+  height: auto;
+  /* padding: 10px; */
+}
+.box {
+  margin: 10px;
+  position: absolute;
+  padding-left: 20px;
+  list-style: none;
+  font-size: 40px;
+  padding: 5px;
+  margin-left: 10px;
+  width: 970px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.languages {
+  font-size: 40px;
+  text-align: start;
+}
+.langBox {
+  padding-left: 40px;
+}
+.name_country {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+img {
+  float: right;
+  box-sizing: border-box;
+}
+.shotList {
+  display: block;
+  font-size: 40px;
+  padding: 10px;
+}

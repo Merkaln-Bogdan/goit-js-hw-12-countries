@@ -1,10 +1,8 @@
-const countries = 'https://restcountries.eu/rest/v2/name/{name}';
-fetch(countries)
-  .then(response => {
-    console.log(response);
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  });
-console.log(countries);
+import './fetchCountries';
+import './style.css';
+import '../node_modules/@pnotify/core/dist/BrightTheme.css';
+
+const countries = 'https://restcountries.eu/rest/v2/name/';
+export default function countryRestAPI(name) {
+  return fetch(countries + name).then(response => response.json());
+}
